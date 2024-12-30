@@ -1,0 +1,42 @@
+Light Theme
+body[data-theme="light"] {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark Theme */
+body[data-theme="dark"] {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem; */
+    /* background-color: var(--header-bg, #f4f4f4); */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.toggle-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    /* border-radius: 1px; */
+    cursor: pointer;
+    background-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}
+
+/* Content Styles */
+.content {
+    padding: 2rem;
+    text-align: center;
+}
